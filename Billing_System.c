@@ -1,5 +1,5 @@
 /*                                                             BILLING SYSTEM
-NAME : HARSHIT CHAUHAN
+NAME : HARSHIT CHAUHAN , BARUN KUMAR MISHRA
 BRANCH/YEAR : IT / 1st 
 COLLEGE : IMS ENGINEERING COLLEGE, GHAZIABAD*/
 
