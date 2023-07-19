@@ -1,0 +1,110 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bungee Hairline', cursive;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.vid{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+    top: -15rem;
+    opacity: 75%;
+}
+
+h1{
+    font-family: 'Bungee Outline', cursive;
+    position: absolute;
+    top: -2rem;
+    font-size: 4rem;
+    text-shadow: 0 0 15px wheat;
+    color: white;
+    word-spacing: 1rem;
+}
+
+.game-info{
+    color:white;
+    font-weight: 600;
+    position:absolute;
+    top:8rem;
+    left:50%;
+    transform:translateX(-50%);
+    background-color: rgba(0,0,0,0.50);
+    border-radius: 1rem;
+    border: 3px solid white;
+    padding: 0.5rem 3rem;
+}
+
+.tic-tac-toe{
+    position: absolute;
+    top: 15rem;
+    width:90%;
+    max-width:28rem;
+    background-color: rgba(0,0,0,0.50);
+    border-radius: 1rem;
+    border: 3px solid white;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    aspect-ratio: 1/1;
+}
+
+
+.box{
+    position:relative;
+    width:100%;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    font-size: 3rem;
+    color:white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1, .box2, .box4, .box5{
+    border-right:3px solid white;
+    border-bottom:3px solid white;
+}
+
+.box3, .box6{
+    border-bottom: 3px solid white;
+}
+
+.box7, .box8{
+    border-right:3px solid white;
+}
+
+.btn{
+    color:white;
+    font-weight: 600;
+    position: absolute;
+    bottom:1.5rem;
+    left:46%;
+    background-color: rgba(0,0,0,0.50);
+    border-radius: 1rem;
+    border: 3px solid white;
+    padding: 0.5rem 2rem;
+    cursor:pointer;
+    display: flex;
+    transform: scale(1.1);
+}
+
+.btn:focus{
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+.win{
+    background-color: rgba(0, 255, 0, 0.5);
+}
