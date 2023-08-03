@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit Chauhan Portfolio</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="wrapper">
+        <!--Scroll Progress Bar-->
+        <div class="header">
+            <div class="progress-container">
+              <div class="progress-bar" id="proBar"></div>
+            </div>
+          </div>
+
+        <!--Header-->
+        <div id="home" class="flex justify-between p-10 px-11 w-full top-0 border-b-2 shadow-2xl shadow-black">
+            <div class="flex flex-col relative">
+                <p class="text-white"> <span class="text-green-600"> * </span> <a href="#">Harshit_Chauhan</a> </p>
+                <p class="text-[#9b61e0] absolute top-6 left-[1.95rem]">Web_Dev</p>
+            </div>
+            <div class="flex text-[#e6db74] gap-8">
+                <div>
+                    <a class="hover:text-red-500 focus:text-cyan-500" href="#home">_home</a>
+                </div>
+                <div>
+                    <a class="hover:text-red-500 focus:text-cyan-500" href="#about">_about</a>
+                </div>
+                <div>
+                    <a class="hover:text-red-500 focus:text-cyan-500" href="#skills">_skills</a>
+                </div>
+                <div>
+                    <a class="hover:text-red-500 focus:text-cyan-500" href="#projects">_projects</a>
+                </div>
+                <div>
+                    <a class="hover:text-red-500 focus:text-cyan-500" href="#contact">_contact</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!--pacman animated-->
+        <div class="flex justify-center items-center mt-[2rem] w-full mx-auto">
+            <div class="la-pacman">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!--Home-->
+        <div class="flex justify-between mt-[7.5rem] px-11">
+            <!--left home-->
+            <div>
+                    <p class="text-white"> <span class="text-green-600"> >> </span> Hello!</p>
+                    <p class="text-[#e6db74] text-[2.5rem] mt-3"> <span class="text-white">I'm</span> Harshit Chauhan</p>
+                    <p class="text-[#9b51e0] text-[1.5rem] mt-3"> <span class="text-white">{"</span> <a href="#" class="typewrite" data-period="2000" data-type='["_Full Stack Developer", "_Front End Developer", "_Coder"]'>
+                        <span class="wrap"></span>
+                      </a> <span class="text-white">"}</span>
+                    </p>
+                    <a href="./assets/Harshit_Chauhan_Resume_.pdf" download>
+                        <button class="cv-btn mt-5 ml-2" role="button"> <i class="fa-solid fa-download"></i> Download CV</button>
+                    </a>
+                    <a href="#contact">
+                        <button class="cv-btn cv-btn2 mt-5 ml-2" role="button"> <i class="fa-solid fa-download"></i> Let's Talk</button>
+                    </a>
+                </div>
+    
+                <!--right home-->
+                <div class="relative -top-[3rem] right-[9rem]">
+                    <div class="container">
+                        <div class="avatar">
+                            <a href="#">
+                                <img class="profile" src="./assets/p1.JPG" alt="Profile1">
+                                <img class="profile" src="./assets/p2.jpg" alt="profile2">
+                                <img class="profile" src="./assets/p3.jpg" alt="profile3">
+                                <img class="profile" src="./assets/p4.JPG" alt="profile4">
+                                <img class="profile" src="./assets/p5.JPG" alt="profile5">
+                                <img class="profile" src="./assets/p6.JPG" alt="profile6">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+        <!--Animated Line-->
+        <div class="mt-8">
+            <div>
+                <marquee direction="left" speed="fast" behavior="loop" class="marquee">
+                    >> Hello and thank you for visiting my portfolio! I'm thrilled to have you here. Whether you stumbled upon my site intentionally or by chance, I hope you'll find it engaging and informative...        
+                </marquee>
+            </div>
+        </div>
+
+
+        <!--down arrow-->
+        <div class="flex justify-center relative top-[5.5rem]">
+            <a href="#about">
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+        </div>
+
+
+        <!--parallex effect-->
+        <div class="bg bg1">
+        </div>
+
+        <div>
+            <p class="bg-black mt-[5rem] text-[#e6db74] text-[35px] text-center mb-5"> <span class="text-white bg-black"> { </span> / <span class="text-white bg-black"> } </span> </p>
+        </div>
+
+
+        <fieldset class="border-[2px] border-green-600">
+            <legend class="text-center">
+                <!--about-->
+                <div id="about" class="flex flex-col bg-black justify-center items-center">
+                    <p class=" text-white mt-5 bg-black text-[45px]"> [ about<span class="text-green-600">_me</span> ]  </p>
+                </div>
+            </legend>
+
+        <!--about details-->
+        <div class="flex bg-black mt-[3rem] justify-evenly items-center">
+            <div class="bg-black">
+                <img src="./assets/giphy.gif" alt="">
+            </div>
+            <div>
+                <div class="text-white text-[20px] space-y-5">
+                    <div class="flex space-x-[4.6rem]">
+                        <p class="text-green-600">_name</p>
+                        <p>: Harshit Chauhan</p>
+                    </div>
+                    <div class="flex space-x-[5.9rem]">
+                        <p class="text-green-600">_dob</p>
+                        <p>: 21 December, 2002</p>
+                    </div>
+                    <div class="flex space-x-4">
+                        <p class="text-green-600">_address</p>
+                        <p>: Dhampur, Bijnor, UP</p>
+                    </div>
+                    <div class="flex space-x-[3.5rem]">
+                        <p class="text-green-600">_email</p>
+                        <p>: harshitrajput616@gmail.com</p>
+                    </div>
+                    <div class="flex space-x-[3.5rem]">
+                        <p class="text-green-600">_phone</p>
+                        <p>: +91 7895944415</p>
+                    </div>
+                    <div class="flex space-x-[4.8rem]">
+                        <p class="text-green-600">_role</p>
+                        <p>: Full Stack Developer</p>
+                    </div>
+                    <a href="./assets/Harshit_Chauhan_Resume_.pdf" download>
+                        <button class="cv-btn cv-btn2 mt-5 ml-2" role="button"> <i class="fa-solid fa-download"></i> Download CV</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--about summary-->
+        <div class="mt-[3rem] mb-[2rem]">
+            <div class="w-[1200px] mx-auto h-0.5 bg-gray-500 bg-opacity-50"></div>
+            <p class="rainbow-text w-[1200px] mx-auto mt-[2rem]">A highly motivated and enthusiastic student pursuing a Bachelor's degree in Information Technology, with expertise in C++ and Full Stack Development. Possessing strong problem-solving skills, multi-tasking abilities, and a quick learner with a solid foundation in coding and programming. Exhibiting excellent communication skills, teamwork, and a strong work ethic. </p>
+        </div>
+        </fieldset>
+
+
+        <!--down arrow-->
+        <div class="flex justify-center relative top-[5.5rem]">
+            <a href="#skills">
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+        </div>
+
+
+        <!--parallex effect-->
+        <div class="bg bg2">
+        </div>
+
+        <div>
+            <p class="bg-black mt-[5rem] text-[#9b51e0] text-[35px] text-center mb-5"> <span class="text-white bg-black"> { </span> # <span class="text-white bg-black"> } </span> </p>
+        </div>
+
+        <fieldset class="border-[2px] border-[#e6db74]">
+            <legend class="text-center">
+                <p id="skills" class=" text-white mt-5 bg-black text-[45px]"> [ <span class="text-[#e6db74]">_skills</span> ]  </p>
+            </legend>
+                
+                <div class="grid grid-cols-3 gap-y-[10rem] gap-x-10 pl-[9rem] pt-[5rem] pb-[3rem]"> 
+                    <div class="grid__item item max-h-[400px] max-w-[275px] text-white relative">
+                        <div class="item__content flex flex-col gap-y-5 justify-center items-center h-full w-full p-4 bg-black relative border-2">
+                            <img loading="lazy" src="./assets/c++.png" class="img" height="150px" width="175px" alt="">
+                            <div class="range" style="--p:93">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__item item max-h-[400px] max-w-[275px] text-white relative">
+                        <div class="item__content flex flex-col gap-y-5 justify-center items-center h-full w-full p-4 bg-black relative border-2">
+                            <img loading="lazy" src="./assets/java.png" class="img rounded-full" height="190px" width="210px" alt="">
+                            <div class="range" style="--p:68">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__item item max-h-[400px] max-w-[275px] text-white relative">
+                        <div class="item__content flex flex-col gap-y-5 justify-center items-center h-full w-full p-4 bg-black relative border-2">
+                            <img loading="lazy" src="./assets/html.jpg" class="img" height="150px" width="175px" alt="">
+                            <div class="range" style="--p:96">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__item item max-h-[400px] max-w-[275px] text-white relative">
+                        <div class="item__content flex flex-col gap-y-5 justify-center items-center h-full w-full p-4 bg-black relative border-2">
+                            <img loading="lazy" src="./assets/css.png" class="img" height="150px" width="175px" alt="">
+                            <div class="range" style="--p:90">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__item item max-h-[400px] max-w-[275px] text-white relative">
+                        <div class="item__content flex flex-col gap-y-5 justify-center items-center h-full w-full p-4 bg-black relative border-2">
+                            <img loading="lazy" src="./assets/tailwind.png" class="img" height="175px" width="175px" alt="">
+                            <div class="range" style="--p:82">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__item item max-h-[400px] max-w-[275px] text-white relative">
+                        <div class="item__content flex flex-col gap-y-5 justify-center items-center h-full w-full p-4 bg-black relative border-2">
+                            <img loading="lazy" src="./assets/javascript.png" class="img" height="150px" width="175px" alt="">
+                            <div class="range" style="--p:80">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__item item max-h-[400px] max-w-[275px] text-white relative">
+                        <div class="item__content flex flex-col gap-y-5 justify-center items-center h-full w-full p-4 bg-black relative border-2">
+                            <img src="./assets/react.png" class="img" height="150px" width="175px" alt="">
+                            <div class="range" style="--p:79">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__item item max-h-[400px] max-w-[275px] text-white relative">
+                        <div class="item__content flex flex-col gap-y-16 justify-center items-center h-full w-full p-4 bg-black relative border-2">
+                            <img src="./assets/node.jpg" class="img" height="200px" width="175px" alt="">
+                            <div class="range" style="--p:73">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__item item max-h-[400px] max-w-[275px] text-white relative">
+                        <div class="item__content flex flex-col gap-y-5 justify-center items-center h-full w-full p-4 bg-black relative border-2">
+                            <img src="./assets/monogdb.png" class="img rounded-full" height="150px" width="175px" alt="">
+                            <div class="range" style="--p:60">
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+        </fieldset>
+
+        <!--down arrow-->
+        <div class="flex justify-center relative top-[5.5rem]">
+            <a href="#projects">
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+        </div>
+
+        <!--parallex effect-->
+        <div class="bg bg3">
+        </div>
+
+        <div>
+            <p class="bg-black mt-[5rem] text-[#e6db74] text-[35px] text-center mb-5"> <span class="text-white bg-black"> { </span> $ <span class="text-white bg-black"> } </span> </p>
+        </div>
+
+
+        <!--projects-->
+        <fieldset class="border-[2px] border-[#9b51e0] min-h-[1100px]">
+            <legend class="text-center">
+                <p id="projects" class=" text-white mt-5 bg-black text-[45px]"> [ <span class="text-[#9b51e0]">_projects</span> ]  </p>
+            </legend>
+
+            <div class="card-container grid grid-cols-3 pt-[8rem] pl-[7.25rem] gap-y-[7rem]">
+                <div class="cards">
+                  <div class="card-image">
+                    <img src="./assets/project1.gif" class="bg-transparent" alt="">
+                    <p class="bg-transparent">Portfolio</p>
+                    <p class="bg-transparent pb-3">Website</p>
+<!--1 card-->   </div>
+                  <div class="card-content bg-transparent">
+                    <p class="bg-transparent text-center text-sm pb-2">
+                        A professional website that provides information about what you do, what services you may offer, and how to contact you or your company.
+                    </p>
+                    <a href="https://github.com/HarshitChauhan21/Projects" target="_blank" class="btnfos btnfos-5">View in GitHub</a>
+                  </div>
+                </div>
+
+                <div class="cards">
+                    <div class="card-image">
+                      <img src="./assets/project2.gif" class="bg-transparent" alt="">
+                      <p class="bg-transparent">Weather</p>
+                      <p class="bg-transparent pb-3">Forecast</p>
+ <!--2 card-->      </div>
+                    <div class="card-content bg-transparent">
+                      <p class="bg-transparent text-center text-sm pb-2">
+                        Weather forecasting is the application of science and technology to predict the conditions of the atmosphere for a given location and time.
+                      </p>
+                      <a href="https://github.com/HarshitChauhan21/Projects/tree/main/Weather%20Forecast" target="_blank" class="btnfos btnfos-5">View in GitHub</a>
+                    </div>
+                  </div>
+
+                  <div class="cards">
+                    <div class="card-image">
+                      <img src="./assets/project3.gif" class="bg-transparent" alt="">
+                      <p class="bg-transparent">Billing</p>
+                      <p class="bg-transparent pb-3">System</p>
+                    </div>
+ <!--3 card-->      <div class="card-content bg-transparent">
+                      <p class="bg-transparent text-center text-sm pb-2">
+                        A billing system is a procedure used by a company to charge and invoice clients.It's a software that automates the process of taking payments.
+                      </p>
+                      <a href="https://github.com/HarshitChauhan21/Projects/tree/main/Billing_System" target="_blank" class="btnfos btnfos-5">View in GitHub</a>
+                    </div>
+                  </div>
+
+                  <div class="cards">
+                    <div class="card-image">
+                      <img src="./assets/project4.gif" class="bg-transparent" alt="">
+                      <p class="bg-transparent">Face</p>
+                      <p class="bg-transparent pb-3">Detection</p>
+                    </div>
+ <!--4 card-->      <div class="card-content bg-transparent">
+                      <p class="bg-transparent text-center text-sm pb-2">
+                        Face detection, also called facial detection, is an artificial intelligence (AI)-based computer technology used to identify human faces.
+                      </p>
+                      <a href="https://github.com/HarshitChauhan21/Projects" target="_blank" class="btnfos btnfos-5">View in GitHub</a>
+                    </div>
+                  </div>
+
+                  <div class="cards">
+                    <div class="card-image">
+                      <img src="./assets/project5.gif" class="bg-transparent" alt="">
+                      <p class="bg-transparent">RazorPay</p>
+                      <p class="bg-transparent pb-3">Clone</p>
+                    </div>
+ <!--5 card-->      <div class="card-content bg-transparent">
+                      <p class="bg-transparent text-center text-sm pb-2">
+                        Website cloning refers to the practice of creating a replica of an existing website. The process involves copying the original website.
+                      </p>
+                      <a href="https://github.com/HarshitChauhan21/Projects/tree/main/RazorPay%20Clone" target="_blank" class="btnfos btnfos-5">View in GitHub</a>
+                    </div>
+                  </div>
+
+                  <div class="cards">
+                    <div class="card-image">
+                      <img src="./assets/project6.gif" class="bg-transparent" alt="">
+                      <p class="bg-transparent">Upcomming</p>
+                      <p class="bg-transparent pb-3">project</p>
+                    </div>
+ <!--6 card-->      <div class="card-content bg-transparent">
+                      <p class="bg-transparent text-center text-sm pb-2">
+                        !@#$%^&*()_!@#$%^&*()_+!@#$%^&*()_+!@#$%^&*()_!@#$%^&*()_!@#$%^&*()_+!@#$%^&*()_+!@#$%^&*()_+!@#$%^&*()_+';'...
+                      </p>
+                      <a href="https://github.com/HarshitChauhan21/Projects" target="_blank" class="btnfos btnfos-5">View in GitHub</a>
+                    </div>
+                  </div>
+
+                  
+                
+                
+            </div>
+        </fieldset>
+
+         <!--down arrow-->
+        <div class="flex justify-center relative top-[5.5rem]">
+            <a href="#contact">
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+        </div>
+
+
+        <!--parallex effect-->
+        <div class="bg bg4">
+        </div>
+
+        <div>
+            <p class="bg-black mt-[5rem] text-green-600 text-[35px] text-center mb-5"> <span class="text-white bg-black"> { </span> * <span class="text-white bg-black"> } </span> </p>
+        </div>
+
+        <!--Contact me-->
+        <fieldset id="contact" class="border-[2px] border-[#2fcbef] h-[100vh]">
+            <legend class="text-center">
+                <p id="projects" class=" text-white mt-5 bg-black text-[45px]"> [ <span">contact_<span class="text-[#2fcbef]">me</span> </span> ]  </p>
+            </legend>
+
+            <div class="flex justify-evenly items-center pt-[5rem]">
+                <div>
+                    <img src="./assets/3d.png" width="500px" alt="ss">
+                </div> 
+                <div class="contact-us w-[700px]  h-[500px]">
+                    <form class="bg-transparent forms">
+                        <div class="bg-transparent flex justify-between">
+                            <label class="bg-transparent relative top-2"  for="name">_NAME =></label>
+                            <input required id="name" placeholder="Enter Your Name" name="name" required="" type="text" />
+                        </div>
+
+                        <div class="bg-transparent flex justify-between">
+                            <label class="bg-transparent relative top-2"  for="email">_EMAIL =></label>
+                            <input required id="email" name="customerEmail" placeholder="Enter Your Email" type="email" />
+                        </div>
+
+                        <div class="bg-transparent flex justify-between">
+                            <label class="bg-transparent relative top-2"  for="phone">_PHONE =></label>
+                        <input required id="phone" name="customerPhone" placeholder="Enter Your Phone" type="tel" />
+                        </div>
+
+                        <div class="bg-transparent flex justify-between">
+                            <label class="bg-transparent relative top-2"  for="field">_MESSAGE =></label>
+                        <input required id="field" type="textarea" name="message" placeholder="Enter Your Message">
+                        </div>
+                        <button class="contact-btn" type="submit" onclick="showAlert()">_SEND</button>
+                    </form>
+                </div>
+            </div>
+
+        </fieldset>
+
+        
+        <!--footer-->
+        <div class="flex justify-between items-center mt-[2rem]">
+            <main class="site-wrapper">
+                <div class="pt-table desktop-768">
+                  <div class="pt-tablecell page-home relative">
+                                  <div class="overlay"></div>
+              
+                                  <div class="container">
+                                      <div class="row">
+                                          <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                                              <div class="page-title  home text-center"></div>
+              
+                                              <div class="hexagon-menu clear bg-transparent">
+                                                  <div class="hexagon-item bg-transparent">
+                                                      <div class="hex-item bg-transparent">
+                                                          <div></div>
+                                                          <div></div>
+                                                          <div></div>
+                                                      </div>
+                                                      <div class="hex-item bg-transparent">
+                                                          <div></div>
+                                                          <div></div>
+                                                          <div></div>
+                                                      </div>
+                                                      <a href="#home"  class="hex-content bg-transparent">
+                                                          <span class="hex-content-inner bg-transparent">
+                                                              <span class="icon bg-transparent">
+                                                                <i class="fa-solid fa-house bg-transparent"></i>
+                                                              </span>
+                                                              <span class="title bg-transparent">Home</span>
+                                                          </span>
+                                                          <svg class="bg-transparent" viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                                      </a>
+                                                  </div>
+                                                  <div class="hexagon-item bg-transparent">
+                                                      <div class="hex-item bg-transparent">
+                                                          <div></div>
+                                                          <div></div>
+                                                          <div></div>
+                                                      </div>
+                                                      <div class="hex-item bg-transparent">
+                                                          <div></div>
+                                                          <div></div>
+                                                          <div></div>
+                                                      </div>
+                                                      <a href="#about"  class="hex-content bg-transparent">
+                                                          <span class="hex-content-inner bg-transparent">
+                                                              <span class="icon bg-transparent">
+                                                                <i class="fa-solid fa-address-card bg-transparent"></i>
+                                                              </span>
+                                                              <span class="title bg-transparent">About Me</span>
+                                                          </span>
+                                                          <svg class="bg-transparent" viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                                      </a>
+                                                  </div>
+                                                  <div class="hexagon-item bg-transparent">
+                                                      <div class="hex-item bg-transparent">
+                                                          <div></div>
+                                                          <div></div>
+                                                          <div></div>
+                                                      </div>
+                                                      <div class="hex-item bg-transparent">
+                                                          <div></div>
+                                                          <div></div>
+                                                          <div></div>
+                                                      </div>
+                                                      <a href="#skills"  class="hex-content bg-transparent">
+                                                          <span class="hex-content-inner bg-transparent">
+                                                              <span class="icon bg-transparent">
+                                                                  <i class="fa-solid fa-code bg-transparent"></i>
+                                                              </span>
+                                                              <span class="title bg-transparent">Skills</span>
+                                                          </span>
+                                                          <svg class="bg-transparent" viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                                      </a>    
+                                                  </div>
+                                                  <div class="hexagon-item bg-transparent">
+                                                      <div class="hex-item bg-transparent">
+                                                          <div></div>
+                                                          <div></div>
+                                                          <div></div>
+                                                      </div>
+                                                      <div class="hex-item bg-transparent">
+                                                          <div></div>
+                                                          <div></div>
+                                                          <div></div>
+                                                      </div>
+                                                      <a href="#projects"  class="hex-content bg-transparent">
+                                                          <span class="hex-content-inner bg-transparent">
+                                                              <span class="icon bg-transparent">
+                                                                <i class="fa-solid fa-diagram-project bg-transparent"></i>
+                                                              </span>
+                                                              
+                                                              <span class="title bg-transparent">Projects</span>
+                                                          </span>
+                                                          <svg class="bg-transparent" viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                                      </a>
+                                                  </div>
+                                                  <div class="hexagon-item bg-transparent">
+                                                      <div class="hex-item bg-transparent">
+                                                          <div></div>
+                                                          <div></div>
+                                                          <div></div>
+                                                      </div>
+                                                      <div class="hex-item bg-transparent">
+                                                          <div></div>
+                                                          <div></div>
+                                                          <div></div>
+                                                      </div>
+                                                      <a href="#contact"  class="hex-content bg-transparent">
+                                                          <span class="hex-content-inner bg-transparent">
+                                                              <span class="icon bg-transparent">
+                                                                <i class="fa-solid fa-comments bg-transparent"></i>
+                                                              </span>
+                                                              <span class="title bg-transparent">Contact Me</span>
+                                                          </span>
+                                                          <svg class="bg-transparent" viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                                      </a>
+                                                  </div>
+                                                  <div class="hexagon-item bg-transparent">
+                                                      <div class="hex-item bg-transparent">
+                                                          <div></div>
+                                                          <div></div>
+                                                          <div></div>
+                                                      </div>
+                                                      <div class="hex-item bg-transparent">
+                                                          <div></div>
+                                                          <div></div>
+                                                          <div></div>
+                                                      </div>
+                                                      <a href="./assets/Harshit_Chauhan_Resume_.pdf" download="" class="hex-content bg-transparent">
+                                                          <span class="hex-content-inner bg-transparent">
+                                                              <span class="icon bg-transparent">
+                                                                  <i class="fa-solid fa-file bg-transparent"></i>
+                                                              </span>
+                                                              <span class="title bg-transparent">Resume</span>
+                                                          </span>
+                                                          <svg class="bg-transparent" viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                                      </a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                </main>
+
+                <div class="animated-title bg-transparent flex flex-col justify-center items-center">
+                    <div class="text-top bg-transparent">
+                      <div class="bg-transparent">
+                        <span class="bg-transparent">SuperSite</span>
+                        <span class="bg-transparent">Designed By</span>
+                      </div>
+                    </div>
+                    <div class="text-bottom bg-transparent">
+                      <div class="bg-transparent text-gray-600">Harshit Chauhan</div>
+                    </div>
+
+                    <div class="bg-transparent relative top-[8.5rem]">
+                        <ul>
+                            <li>
+                              <a class="facebook" href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="linkedin" href="https://www.linkedin.com/in/harshit-chauhan-0a4219204/" target="_blank">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="instagram" href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="github" href="https://github.com/HarshitChauhan21" target="_blank">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                              </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+        </div>
+
+        <p class="text-white bg-transparent relative ml-[35rem] -top-5"> <span class="text-green-600">SuperSite</span> | Copyright <i class="fa-regular fa-copyright"></i> 2023</p>
+    </div>
+        
+    <script src="./main.js"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+</body>
+</html>
