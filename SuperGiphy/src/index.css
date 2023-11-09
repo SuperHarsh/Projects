@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+
+.wrapper {
+    background-image: url(./assets/pixel-art.gif);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+
+.main-heading{
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing: 0.75rem;
+}
+
+.random{
+    font-family: 'Handjet', cursive;
+    font-size: 3rem;
+    letter-spacing: 0.25rem;
+    font-weight: 600;
+    text-shadow: 0 2px 8px black;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    position: relative;
+    border: 2px solid #FFF;
+    box-sizing: border-box;
+    animation: rotation 2s linear infinite;
+  }
+  .loader::after,
+  .loader::before {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 2px solid black;
+    width: 38px;
+    height: 38px;
+    animation: rotationBack 1.5s linear infinite;
+    transform-origin: center center;
+  }
+  .loader::before {
+    width: 28px;
+    height: 28px;
+    border-color: #FFF;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+  @keyframes rotationBack {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+  
+
+
+@media only screen and (max-width: 600px) {
+    .main-heading{
+        font-size: 1.75rem;
+    }
+
+    .random{
+        font-size: 1.5rem;
+    }
+
+    .div1{
+        width: 300px;
+    }
+}
+
+
+
+
